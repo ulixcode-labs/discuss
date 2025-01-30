@@ -39831,7 +39831,7 @@
                                           ? "管理员"
                                           : "mod" == r.author.roletags
                                           ? "仲裁员"
-                                          : (r.author.roletags, "成员")
+                                          : (r.author.roletags, "member")
                                       )
                                     )
                                   ),
@@ -40353,7 +40353,7 @@
                                   ? "管理员"
                                   : "mod" == r.author.roletags
                                   ? "仲裁员"
-                                  : (r.author.roletags, "成员")
+                                  : (r.author.roletags, "member")
                               ),
                               " "
                             )
@@ -40620,7 +40620,7 @@
                     : e.createElement(
                         "div",
                         { style: Hn },
-                        "本贴还没有被评论过"
+                        "No comments for this post"
                       );
                 },
               },
