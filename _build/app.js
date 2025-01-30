@@ -38037,7 +38037,7 @@
                                 className: " SignInPopup",
                                 rel: "nofollow",
                               },
-                              "登录"
+                              "login"
                             ),
                             e.createElement(
                               "span",
@@ -38051,7 +38051,7 @@
                                 className: "ApplyButton",
                                 rel: "nofollow",
                               },
-                              "注册"
+                              "register"
                             )
                           ),
                           e.createElement("div", { className: "SignInIcons" })
@@ -38672,7 +38672,7 @@
                       : e.createElement(
                           "div",
                           { style: Mt },
-                          "没有任何可展示的贴子,或正在加载中..."
+                          "No posts or loading"
                         )
                   );
                 },
@@ -40797,7 +40797,7 @@
                         "div",
                         { style: Jn },
                         e.createElement("span", null, "你需要"),
-                        e.createElement(N, { to: "/sign-in" }, " 登录 "),
+                        e.createElement(N, { to: "/sign-in" }, " login "),
                         " ",
                         e.createElement("span", null, "才能创建新评论")
                       );
@@ -41275,7 +41275,7 @@
                             null,
                             "此文章属于敏感分类下的文章,需要"
                           ),
-                          e.createElement(N, { to: "/sign-in" }, " 登录 "),
+                          e.createElement(N, { to: "/sign-in" }, " login "),
                           " ",
                           e.createElement("span", null, "才能查看")
                         )
@@ -41749,7 +41749,7 @@
                         "div",
                         { style: Ar },
                         e.createElement("span", null, "你需要"),
-                        e.createElement(N, { to: "/sign-in" }, " 登录 "),
+                        e.createElement(N, { to: "/sign-in" }, " login "),
                         " ",
                         e.createElement("span", null, "才能创建新贴子")
                       );
@@ -41897,7 +41897,7 @@
                     jwt: this.props.currentUser.jwt,
                   };
                   this.props.createPost(a);
-                } else alert("请填充所有表单项");
+                } else alert("please fill in all the items");
               },
             },
             {
@@ -42086,7 +42086,7 @@
                   if (Oe.Aq.Co && "on" === Oe.Aq.Co)
                     if (0 === t.length || 0 === r.length || 0 === a.lenght)
                       alert("请填写所有表单项");
-                    else if (r !== a) alert("二次密码不匹配");
+                    else if (r !== a) alert("二次password不匹配");
                     else {
                       var i = { email: t, username: n, password: r };
                       this.props.signUp(i);
@@ -42100,7 +42100,7 @@
                       0 === o.length
                     )
                       alert("请填写所有表单项");
-                    else if (r !== a) alert("二次密码不匹配");
+                    else if (r !== a) alert("二次password不匹配");
                     else {
                       var s = {
                         email: t,
@@ -42123,7 +42123,7 @@
                     e.createElement(
                       "div",
                       { id: "content" },
-                      e.createElement("h1", null, "注册"),
+                      e.createElement("h1", null, "register"),
                       e.createElement(
                         "form",
                         { onSubmit: this.handleSignUp.bind(this) },
@@ -42136,20 +42136,20 @@
                         e.createElement("br", null),
                         e.createElement("input", {
                           type: "text",
-                          placeholder: "用户名",
+                          placeholder: "username",
                           style: $r,
                           ref: "username",
                         }),
                         e.createElement("br", null),
                         e.createElement("input", {
                           type: "password",
-                          placeholder: "密码",
+                          placeholder: "password",
                           style: $r,
                           ref: "password",
                         }),
                         e.createElement("input", {
                           type: "password",
-                          placeholder: "确认密码",
+                          placeholder: "confirm password",
                           style: $r,
                           ref: "passwordConfirmation",
                         }),
@@ -42166,11 +42166,11 @@
                         e.createElement("input", {
                           type: "submit",
                           className: "button button-primary u-full-width",
-                          value: "注册",
+                          value: "register",
                         })
                       ),
                       "已有帐号? ",
-                      e.createElement(N, { to: "/sign-in" }, "登录")
+                      e.createElement(N, { to: "/sign-in" }, "login")
                     )
                   );
                 },
@@ -43085,7 +43085,7 @@
                       : e.createElement(
                           "div",
                           { style: La },
-                          "没有任何可展示的贴子,或正在加载中..."
+                          "No posts or loading"
                         ),
                     e.createElement(
                       "div",
@@ -43375,7 +43375,7 @@
                       : e.createElement(
                           "div",
                           { style: za },
-                          "没有任何可展示的贴子,或正在加载中..."
+                          "No posts or loading"
                         ),
                     e.createElement(
                       "div",
@@ -44304,7 +44304,7 @@
                   var t = this.refs.username.value,
                     n = this.refs.password.value;
                   if (0 === t.length || 0 === n.length)
-                    alert("请填充所有表单项");
+                    alert("please fill in all the items");
                   else {
                     var r = { username: t, password: n };
                     this.props.signIn(r);
@@ -44320,30 +44320,30 @@
                     e.createElement(
                       "div",
                       { id: "content" },
-                      e.createElement("h1", null, "登录"),
+                      e.createElement("h1", null, "login"),
                       e.createElement(
                         "form",
                         { onSubmit: this.handleSignIn.bind(this) },
                         e.createElement("input", {
                           type: "username",
-                          placeholder: "用户名",
+                          placeholder: "username",
                           style: Gi,
                           ref: "username",
                         }),
                         e.createElement("input", {
                           type: "password",
-                          placeholder: "密码",
+                          placeholder: "password",
                           style: Gi,
                           ref: "password",
                         }),
                         e.createElement("input", {
                           type: "submit",
                           className: "button button-primary u-full-width",
-                          value: "登录",
+                          value: "login",
                         })
                       ),
-                      "还没有帐号? ",
-                      e.createElement(N, { to: "/sign-up" }, "注册")
+                      "no account? ",
+                      e.createElement(N, { to: "/sign-up" }, "register")
                     )
                   );
                 },
