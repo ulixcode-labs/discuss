@@ -38659,9 +38659,9 @@
                                     "general" == t.cattags
                                       ? "general"
                                       : "water" == t.cattags
-                                      ? "灌水"
+                                      ? "Issues"
                                       : "security" == t.cattags
-                                      ? "敏感"
+                                      ? "others"
                                       : "无分类"
                                   )
                                 )
@@ -39874,28 +39874,28 @@
                                             e.createElement(
                                               "option",
                                               { value: "general" },
-                                              "通用"
+                                              "General"
                                             ),
                                             e.createElement(
                                               "option",
                                               { value: "water" },
-                                              "灌水"
+                                              "Issues"
                                             ),
                                             e.createElement(
                                               "option",
                                               { value: "security" },
-                                              "敏感"
+                                              "others"
                                             )
                                           )
                                         : e.createElement(
                                             "a",
                                             { href: "/categories/requests" },
                                             "general" == r.cattags
-                                              ? "通用"
+                                              ? "General"
                                               : "water" == r.cattags
-                                              ? "灌水"
+                                              ? "Issues"
                                               : "security" == r.cattags
-                                              ? "敏感"
+                                              ? "others"
                                               : "无分类"
                                           )
                                     ),
@@ -41201,7 +41201,7 @@
                       jwt: this.props.currentUser.jwt,
                     };
                     this.props.updatePost(i);
-                  } else alert("标题或内容为空,无法提交");
+                  } else alert("Title或内容为空,无法提交");
                 },
               },
               {
@@ -41273,7 +41273,7 @@
                           e.createElement(
                             "span",
                             null,
-                            "此文章属于敏感分类下的文章,需要"
+                            "此文章属于others分类下的文章,需要"
                           ),
                           e.createElement(N, { to: "/sign-in" }, " login "),
                           " ",
@@ -41686,14 +41686,14 @@
                         e.createElement(
                           "div",
                           { id: "content" },
-                          e.createElement("h1", null, "新贴子"),
+                          e.createElement("h1", null, "New Post"),
                           e.createElement(
                             "form",
                             { onSubmit: this.onSubmit.bind(this) },
                             e.createElement(mn.A, {
                               style: Ir,
                               minWidth: 300,
-                              placeholder: "标题",
+                              placeholder: "Title",
                               onChange: this.onChangeTitle.bind(this),
                               value: this.state.title,
                             }),
@@ -41707,24 +41707,24 @@
                               e.createElement(
                                 "option",
                                 { value: "general" },
-                                "通用"
+                                "General"
                               ),
                               e.createElement(
                                 "option",
                                 { value: "water" },
-                                "灌水"
+                                "Issues"
                               ),
                               e.createElement(
                                 "option",
                                 { value: "security" },
-                                "敏感"
+                                "others"
                               )
                             ),
                             e.createElement("br", null),
                             e.createElement(pn, {
                               rows: 20,
                               style: Dr,
-                              placeholder: "内容",
+                              placeholder: "",
                               onChange: this.onChangeBody.bind(this),
                               value: this.state.body,
                             }),
@@ -41732,7 +41732,7 @@
                             e.createElement("input", {
                               type: "submit",
                               className: "button button-primary",
-                              value: "创建",
+                              value: "Create",
                             }),
                             e.createElement(
                               N,
@@ -41740,9 +41740,9 @@
                               " 取消"
                             )
                           ),
-                          "内容可使用",
+                          "You can use ",
                           e.createElement(N, { to: "/markdown" }, " Markdown "),
-                          "语法"
+                          "format"
                         )
                       )
                     : e.createElement(
@@ -41751,7 +41751,7 @@
                         e.createElement("span", null, "你需要"),
                         e.createElement(N, { to: "/sign-in" }, " login "),
                         " ",
-                        e.createElement("span", null, "才能创建新贴子")
+                        e.createElement("span", null, "才能创建New Post")
                       );
                 },
               },
@@ -44013,7 +44013,7 @@
                     jwt: this.props.currentUser.jwt,
                   };
                   this.props.updateUser(a);
-                } else alert("标题或内容为空,无法提交");
+                } else alert("Title或内容为空,无法提交");
               },
             },
             {
