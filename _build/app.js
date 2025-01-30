@@ -37461,12 +37461,12 @@
                       e.createElement(
                         "li",
                         null,
-                        e.createElement("a", { href: "/tags" }, "联合节点")
+                        e.createElement("a", { href: "/tags" }, "")
                       ),
                       e.createElement(
                         "li",
                         { className: "dropdown" },
-                        e.createElement("a", { href: "/#" }, "社区规则"),
+                        e.createElement("a", { href: "/#" }, ""),
                         e.createElement(
                           "ul",
                           null,
@@ -37502,7 +37502,7 @@
                             target: "_blank",
                             rel: "noopener",
                           },
-                          e.createElement("strong", null, "联系我们")
+                          e.createElement("strong", null, "")
                         )
                       )
                     ),
@@ -38059,7 +38059,7 @@
                         e.createElement(
                           "div",
                           { className: "Box GuestBox" },
-                          e.createElement("h4", null, "你好啊，陌生人!"),
+                          e.createElement("h4", null, "Hello! Dear AI-MD user!"),
                           e.createElement(
                             "p",
                             null,
@@ -38076,7 +38076,7 @@
                                 className: "Button Primary SignInPopup",
                                 rel: "nofollow",
                               },
-                              "登录"
+                              "login"
                             ),
                             e.createElement(
                               N,
@@ -38085,7 +38085,7 @@
                                 className: "Button ApplyButton",
                                 rel: "nofollow",
                               },
-                              "注册"
+                              "register"
                             )
                           )
                         )
@@ -38885,7 +38885,7 @@
                         e.createElement(
                           N,
                           { to: "/", itemprop: "url" },
-                          e.createElement("span", { itemprop: "title" }, "主页")
+                          e.createElement("span", { itemprop: "title" }, "MainPage")
                         )
                       )
                     ),
@@ -41304,7 +41304,7 @@
                                   e.createElement(
                                     "span",
                                     { itemprop: "title" },
-                                    "主页"
+                                    "mainpage"
                                   )
                                 )
                               )
@@ -44803,10 +44803,8 @@
             }),
             (e.state = {
               categories: [
-                { id: 0, title: "all", alias: "全部" },
-                { id: 1, title: "general", alias: "通用" },
-                { id: 2, title: "water", alias: "灌水" },
-                { id: 3, title: "security", alias: "敏感" },
+                { id: 0, title: "all", alias: "all" },
+                { id: 1, title: "general", alias: "general" },
               ],
               initalcater: null,
               initalpager: null,
