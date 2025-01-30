@@ -38633,7 +38633,7 @@
                                               "/show"
                                             ),
                                           },
-                                          "最后回复: ",
+                                          "latest response: ",
                                           t.comments[t.comments.length - 1]
                                             .author.username
                                         )
