@@ -38017,7 +38017,7 @@
                               className:
                                 "Button Primary Action NewDiscussion BigButton",
                             },
-                            "new issues"
+                            "new issues/posts"
                           )
                         )
                       )
@@ -39681,7 +39681,7 @@
                                               onClick:
                                                 this.onUpdatePost.bind(this),
                                             },
-                                            "完成编辑"
+                                            "save"
                                           ),
                                           " ",
                                           e.createElement(
@@ -39729,7 +39729,7 @@
                                               onClick:
                                                 this.onUpdatePost.bind(this),
                                             },
-                                            "完成编辑"
+                                            "save"
                                           ),
                                           " ",
                                           e.createElement(
@@ -40235,7 +40235,7 @@
                                         onClick:
                                           this.onUpdateComment.bind(this),
                                       },
-                                      "完成编辑"
+                                      "save"
                                     ),
                                     " ",
                                     e.createElement(
@@ -40282,7 +40282,7 @@
                                         onClick:
                                           this.onUpdateComment.bind(this),
                                       },
-                                      "完成编辑"
+                                      "save"
                                     ),
                                     " ",
                                     e.createElement(
