@@ -38063,7 +38063,7 @@
                           e.createElement(
                             "p",
                             null,
-                            "“My friend, it looks like you’re new here. If you want to join the discussion, click the button below!"
+                            "Transform your medical imaging workflow! Our AI-Powered Medical Image Analyzer delivers quick insights on CT, MRI, and X-ray scans. Just upload an image, enter patient details, and get results in your chosen language. Speed, accuracy, and convenience—all in one. Sign up below to ask questions or get assistance!"
                           ),
                           e.createElement("p", null),
                           e.createElement(
@@ -38657,7 +38657,7 @@
                                         "MItem Category Category-general",
                                     },
                                     "general" == t.cattags
-                                      ? "通用"
+                                      ? "general"
                                       : "water" == t.cattags
                                       ? "灌水"
                                       : "security" == t.cattags
