@@ -37103,7 +37103,7 @@
       var Te = n(8140),
         Ce = n.n(Te);
       const Oe = JSON.parse(
-        '{"Hs":"/","Aq":{"OG":"Discuss","o4":"","Co":"on"}}'
+        '{"Hs":"/","Aq":{"OG":"AI-MD support","o4":"","Co":"on"}}'
       );
       var Ne = location.origin + Oe.Hs + "api";
       Ne ||
@@ -37919,7 +37919,7 @@
                                   className: "Sprite SpAllCategories",
                                 }),
                                 " ",
-                                e.createElement("span", null, "主题帖 ", i[0])
+                                e.createElement("span", null, "posts", i[0])
                               )
                             ),
                             e.createElement(
@@ -37937,7 +37937,7 @@
                                   className: "Sprite SpAllCategories",
                                 }),
                                 " ",
-                                e.createElement("span", null, "评论数 ", i[1])
+                                e.createElement("span", null, "comments ", i[1])
                               )
                             )
                           ),
@@ -37960,7 +37960,7 @@
                                       className: "Sprite SpAllCategories",
                                     }),
                                     " ",
-                                    e.createElement("span", null, "通知"),
+                                    e.createElement("span", null, "notification"),
                                     " ",
                                     e.createElement(
                                       "span",
@@ -38002,7 +38002,7 @@
                                   className: "Sprite SpAllCategories",
                                 }),
                                 " ",
-                                e.createElement("span", null, "收藏 n/a")
+                                e.createElement("span", null, "collection n/a")
                               )
                             )
                           )
@@ -38897,7 +38897,7 @@
                         itemtype: "https://data-vocabulary.org/Breadcrumb",
                       },
                       e.createElement("span", { className: "Crumb" }, " › "),
-                      e.createElement("span", { itemprop: "title" }, "Discuss")
+                      e.createElement("span", { itemprop: "title" }, "AI-MD support")
                     )
                   ),
                   e.createElement(
@@ -39694,7 +39694,7 @@
                                                 });
                                               },
                                             },
-                                            "取消编辑"
+                                            "Cancel Edit"
                                           )
                                         )
                                       : e.createElement(
@@ -39742,7 +39742,7 @@
                                                 });
                                               },
                                             },
-                                            "取消编辑"
+                                            "Cancel Edit"
                                           )
                                         )
                                       : e.createElement(
@@ -39859,7 +39859,7 @@
                                     e.createElement(
                                       "span",
                                       { className: "MItem Category" },
-                                      " 板块:",
+                                      " types:",
                                       l
                                         ? e.createElement(
                                             "select",
@@ -39908,7 +39908,7 @@
                                           href: "/discussion/flag/discussion/184669/199208/",
                                           className: "FlagContent Popup",
                                         },
-                                        "举报"
+                                        ""
                                       )
                                     )
                                   )
@@ -40248,7 +40248,7 @@
                                           });
                                         },
                                       },
-                                      "取消编辑"
+                                      "Cancel Edit"
                                     )
                                   )
                                 : e.createElement(
@@ -40295,7 +40295,7 @@
                                           });
                                         },
                                       },
-                                      "取消编辑"
+                                      "Cancel Edit"
                                     )
                                   )
                                 : e.createElement(
@@ -40384,7 +40384,7 @@
                                   href: "/discussion/flag/comment/3627704/199208/",
                                   className: "FlagContent Popup",
                                 },
-                                "举报"
+                                ""
                               )
                             ),
                             " "
@@ -40781,7 +40781,7 @@
                           { onSubmit: this.onSubmit.bind(this) },
                           e.createElement(pn, {
                             id: "qstarget",
-                            placeholder: "评论内容",
+                            placeholder: "comments",
                             rows: 3,
                             style: er,
                             onChange: this.onChangeBody.bind(this),
@@ -40789,7 +40789,7 @@
                           e.createElement("input", {
                             type: "submit",
                             className: "Button Primary DiscussionButton",
-                            value: "发表",
+                            value: "Submit",
                           })
                         )
                       )
@@ -41325,7 +41325,7 @@
                               e.createElement(
                                 "span",
                                 { itemprop: "title" },
-                                "Discuss"
+                                "AI-MD support"
                               )
                             )
                           ),
@@ -42453,7 +42453,7 @@
                                         {
                                           onClick: this.onUpdateUser.bind(this),
                                         },
-                                        "完成编辑"
+                                        "Save"
                                       ),
                                       " ",
                                       e.createElement(
@@ -42466,7 +42466,7 @@
                                             });
                                           },
                                         },
-                                        "取消编辑"
+                                        "Cancel Edit"
                                       )
                                     )
                                   : e.createElement(
@@ -44053,7 +44053,7 @@
                                 e.createElement(bi, null, "贴子"),
                                 e.createElement(bi, null, "评论"),
                                 e.createElement(bi, null, "通知"),
-                                e.createElement(bi, { disabled: !0 }, "收藏")
+                                e.createElement(bi, { disabled: !0 }, "collection")
                               ),
                               e.createElement(
                                 Ti,
@@ -45015,7 +45015,7 @@
                             rel: "nofollow noopener",
                             target: "_blank",
                           },
-                          "Privacy Policy."
+                          ""
                         ),
                         "Powered by ",
                         e.createElement(
