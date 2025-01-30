@@ -39905,7 +39905,7 @@
                                       e.createElement(
                                         "a",
                                         {
-                                          href: "/discussion/flag/discussion/184669/199208/minlearn",
+                                          href: "/discussion/flag/discussion/184669/199208/",
                                           className: "FlagContent Popup",
                                         },
                                         "举报"
@@ -40381,7 +40381,7 @@
                               e.createElement(
                                 "a",
                                 {
-                                  href: "/discussion/flag/comment/3627704/199208/minlearn",
+                                  href: "/discussion/flag/comment/3627704/199208/",
                                   className: "FlagContent Popup",
                                 },
                                 "举报"
@@ -42702,7 +42702,7 @@
                       : e.createElement(
                           "div",
                           { style: fa },
-                          "没有任何可展示的贴子,或正在加载中..."
+                          "no posts to display or loading ..."
                         ),
                     e.createElement(
                       "div",
@@ -45007,7 +45007,7 @@
                       e.createElement(
                         "li",
                         { style: To },
-                        "2008-2021 © Discuss.",
+                        "2024 © UlixLab.",
                         e.createElement(
                           "a",
                           {
@@ -45021,11 +45021,11 @@
                         e.createElement(
                           "a",
                           {
-                            href: "https://github.com/minlearn/discuss",
+                            href: "#",
                             rel: "nofollow noopener",
                             target: "_blank",
                           },
-                          "Discuss"
+                          "UlixLab"
                         ),
                         "."
                       ),
