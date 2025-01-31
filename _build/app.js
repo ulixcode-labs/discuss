@@ -38063,7 +38063,7 @@
                           e.createElement(
                             "p",
                             null,
-                            "Transform your medical imaging workflow! Our AI-Powered Medical Image Analyzer delivers quick insights on CT, MRI, and X-ray scans. Just upload an image, enter patient details, and get results in your chosen language. Speed, accuracy, and convenience—all in one. Sign up below to ask questions or get assistance!"
+                            "Transform your medical imaging workflow! Our AI-Powered Medical Image Analyzer delivers quick insights on CT, MRI, and X-ray scans. Just upload an image, enter patient details, and get results in your chosen language. Speed, accuracy, and convenience—all in one. Sign up below to ask questions or get assistance! https://md.ulixlab.com/"
                           ),
                           e.createElement("p", null),
                           e.createElement(
