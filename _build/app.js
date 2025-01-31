@@ -39706,7 +39706,7 @@
                                               onClick:
                                                 this.onEditPost.bind(this),
                                             },
-                                            "编辑"
+                                            "Edit"
                                           ),
                                           " ",
                                           e.createElement(
@@ -39754,7 +39754,7 @@
                                               onClick:
                                                 this.onEditPost.bind(this),
                                             },
-                                            "编辑"
+                                            "Edit"
                                           )
                                         )
                                     : null
@@ -40259,7 +40259,7 @@
                                       {
                                         onClick: this.onEditComment.bind(this),
                                       },
-                                      "编辑"
+                                      "Edit"
                                     ),
                                     " ",
                                     e.createElement(
@@ -40306,7 +40306,7 @@
                                       {
                                         onClick: this.onEditComment.bind(this),
                                       },
-                                      "编辑"
+                                      "Edit"
                                     )
                                   )
                               : null
@@ -42475,7 +42475,7 @@
                                       e.createElement(
                                         "button",
                                         { onClick: this.onEditUser.bind(this) },
-                                        "编辑"
+                                        "Edit"
                                       ),
                                       " "
                                     )
